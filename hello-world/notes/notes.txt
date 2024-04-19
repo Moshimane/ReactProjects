@@ -27,3 +27,21 @@ React.StrictMode:
 
 Map:
     A map in javascripts is a method that allows you to loop through arrays
+
+onClick:
+    referencing a method with brackets within an onClick will call the method whenever the application renders even if the button is not clicked
+     - Correct syntax onClick={methodName}
+     - Incorrect syntax onClick={methodName()}
+
+State:
+    State is an object that holds information to control behaviour of a component
+
+    Why do you need state:
+        1) Props are immutable
+        2) Value which can change dynamically
+
+    Props vs State
+    1) Props are passed to the component while state is contained inside the component
+    2) Props are immutable and state can be changed
+    3) Props are like parameters passed to a function and state is like a variable declared in a function body
+
