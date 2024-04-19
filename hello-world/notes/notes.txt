@@ -41,7 +41,13 @@ State:
         2) Value which can change dynamically
 
     Props vs State
-    1) Props are passed to the component while state is contained inside the component
-    2) Props are immutable and state can be changed
-    3) Props are like parameters passed to a function and state is like a variable declared in a function body
+        1) Props are passed to the component while state is contained inside the component
+        2) Props are immutable and state can be changed
+        3) Props are like parameters passed to a function and state is like a variable declared in a function body
+
+    Hooks can only be called inside of the body of a function component
+
+Effect:
+    What does useEffect do?
+        - useEffect is used to tell react that your component needs to do something after rendering
 
