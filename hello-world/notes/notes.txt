@@ -1,0 +1,29 @@
+JSX:
+    JSX - Javascript Extension that allows us to write Javascript in html
+
+Components:
+    Why do we use Components in react:
+        1) To achieve better modularity (single responsibility)
+        2) Reusability (components can be created once and used many times)
+        3) Abstraction (Hide complexity/ implementations)
+        4) Simplify Testing
+
+Props:
+    Props are parameters that a component accept/that are being passed to a component
+    Destructuring of props:
+        - It's a javascript concept that when you have an object with values, you take those values
+        separately into different variables and avoid using the actual parent object (in this case the props object)
+        -Destructuring methods:
+            1) using properties in the method body like -> const {key1, key2, ...} = props;
+            2) using the Component parameters like -> function ComponentName({key1, key2, ...})
+
+    Props are immutable
+    You can pass any kind of data to props primitives, arrays, objects, functions, components
+
+React.StrictMode:
+    Executes the application twice for safety purposes and is used whenever the application is
+    running is dev mode(debugging mode).
+    Remove StrictMode when running in production
+
+Map:
+    A map in javascripts is a method that allows you to loop through arrays
