@@ -6,6 +6,7 @@ import Fruits from "./components/Fruits";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import Form from "./components/Form";
 
 function App() {
   //const [count, setCount] = useState(0);
@@ -14,13 +15,19 @@ function App() {
     message: "Hello ",
     seatNumbers: [1, 2, 4],
   };
+  // return (
+  //   <div className="App">
+  //     <Hello person={person} />
+  //     <Fruits />
+  //     <ConditionalComponent />
+  //     <Message />
+  //     <Counter />
+  //   </div>
+  // );
+
   return (
     <div className="App">
-      <Hello person={person} />
-      <Fruits />
-      <ConditionalComponent />
-      <Message />
-      <Counter />
+      <Form />
     </div>
   );
 }
