@@ -1,0 +1,30 @@
+.container {
+  width: 500px;
+  color: #363232;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.name {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.line {
+  border: 1px solid #e2dfdf;
+}
+
+.deleteButton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #072947;
+  color: #f1d5d5;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.completeTask {
+  text-decoration: line-through;
+}
