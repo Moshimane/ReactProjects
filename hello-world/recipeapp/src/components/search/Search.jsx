@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import RecipeContext from "../constants/RecipeContext";
 import RecipeList from "../recipe-list/RecipeList";
+import styles from "./search.module.css";
 
 const URL = "https://api.spoonacular.com/recipes/complexSearch";
 const API_KEY = "My_API_Key";
